@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megaboss</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navigation">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Logo" class="logo">
+                </a>
+                <div class="mobile-menu-toggle">
+                    <img src="images/menu.png" name="options-outline"  alt="">
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-list">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="index.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="index.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="index.html" class="nav-link">Offers</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="index.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="dashboard.html" class="nav-link">Dashboard</a>
+                    </li>
+                    <li class="nav-list btn-action">
+                        <a href="signin.html" class="nav-link">Get Started</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="sec-1">
+        <div class="plan">
+            <img src="images/glo.png" alt="MTN logo">
+        </div>
+
+        <div class="plan2">
+                <select id="lang">
+                    <option value="" disabled selected hidden class="foo">Select Data Plan</option> 
+                    <option value="price">1.05GB  -  N500</option> 
+                    <option value="price">2.9GB  -  N1,000</option>
+                    <option value="price">4.1GB  -  N1,400</option>
+                    <option value="price">5.8GB  -  N1,800</option>
+                    <option value="price">7.7GB  -  N2,200</option>
+                    <option value="price">10.0GB  -  N2,700</option> 
+                    <option value="price">18.25GB  -  N4,300</option>
+                    <option value="price">29.5GB  -  N7,500</option>
+                    <option value="price">50.0GB  -  N9,400</option>
+                    <option value="price">119.0GB  -  N14,500</option>
+                    <option value="price">138.0GB  -  N16,000</option>
+                </select> 
+            <br>
+            <input type="number" required class="foo" placeholder="Your Phone Number">
+            <br>
+            <input type="email" class="foo" placeholder="Your Email(optional)">
+            <br>
+            <button class="btn-sec">Proceed</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

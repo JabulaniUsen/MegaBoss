@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megaboss</title>
+</head>
+<body class="signup-mf">
+    <header>
+        <div class="container signIn">
+            <nav class="navigation">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Logo" class="logo">
+                </a>
+                <div class="mobile-menu-toggle">
+                    <img src="images/menu.png" name="options-outline"  alt="">
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-list">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="index.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="index.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="index.html" class="nav-link">Offers</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="index.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="signin.html" class="nav-link">Dashboard</a>
+                    </li>
+                    <li class="nav-list btn-action">
+                        <a href="signin.html" class="nav-link">Get Started</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="center cen2">
+        <h1 class="login-h1">Login</h1>
+            <form method="post">
+    
+                <div class="txt-field">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Full Name</label>
+                </div>
+    
+                <div class="txt-field">
+                    <input type="email" required>
+                    <span></span>
+                    <label>Email Address</label>
+                </div>
+    
+                <div class="txt-field">
+                    <input type="number" required>
+                    <span></span>
+                    <label>Phone number</label>
+                </div>
+    
+                <div class="txt-field">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+    
+                <div class="txt-field">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                    <button type="submit" class="btn" onclick="openPop()">Sign up</button>
+                    <div class="signup-link">
+                        Already have an account? <br> <a href="signin.html">Sign in</a>
+                    </div>
+                </form>
+        </div>
+    
+
+        <div class="pop">
+            <div class="pop-up" id="popup">
+                <img src="images/tick.png" alt="tick">
+                <h2>Thank You!</h2>
+                <p>Your account has been created. You can now purchase you data.</p>
+                <a href="dashboard.html"><button type="button" onclick="closePop()">OK</button></a>
+            </div>
+            
+        </div>
+        <script src="app.js"></script>
+</body>
+</html>
